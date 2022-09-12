@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ДайтеЩе</title>
+
+  <!--
+    - custom css link 
+  -->
+  <link rel="stylesheet" href="./assets/css/foodhub.css">
+  <link rel="stylesheet" href="./assets/css/media_query.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Monoton&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!--
+    - main container
+  -->
+
+  <div class="container">
+
+    <!--
+      - #HEADER
+    -->
+
+    <header>
+
+      <nav class="navbar">
+
+        <div class="navbar-wrapper">
+
+          <a href="#">
+            <img src="./assets/images/image 7.png" alt="logo" width="180">
+          </a>
+
+          <ul class="navbar-nav">
+
+            <li>
+              <a href="#" class="nav-link">Головна</a>
+            </li>
+
+            <li>
+              <a href="#menu" class="nav-link">Меню</a>
+            </li>
+
+            <li>
+              <a href="#sale" class="nav-link">Акції</a>
+            </li>
+
+          </ul>
+
+          <div class="navbar-btn-group">
+
+            <button class="shopping-cart-btn">
+              Доставка
+            </button>
+
+            <button class="menu-toggle-btn">
+              <span class="line one"></span>
+              <span class="line two"></span>
+              <span class="line three"></span>
+            </button>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+      <div class="cart-box">
+
+        <ul class="cart-box-ul">
+
+          <h4 class="cart-h4">Інформація про доставку</h4>
+
+          <div>
+            <p>Доставка комплексних обідів здійснюється <b>з 12:00 до 16:00</b></p>
+            <p>В межах зеленої зони - <b>безкоштовно</b></p>
+            <p>В інші райони міста - <b>35грн</b></p>
+            <p>Для корпоративних клієнтів доставка по місту <b>безкоштовнa</b></p>
+          </div>
+
+          <div class="free-del">
+          </div>
+
+
+        </ul>
+
+        <div class="cart-btn-group">
+          <button class="btn btn-secondary">View order</button>
+          <button class="btn btn-primary">Checkout</button>
+        </div>
+
+      </div>
+
+    </header>
+
+    <main>
+      <section class="home" id="home">
+
+        <div class="home-left">
+
+          <h1 class="main-heading">Життя - це поєднання магії та макаронів!</h1>
+
+          <p class="home-text">
+            Кафе-кав`ярня, смачні комплексні обіди за приємною ціною.<br>
+            Гаряча кава та свіжа випічка.
+          </p>
+
+          <div class="btn-group">
+
+            <a href="#menu" class="btn btn-primary btn-icon">
+              <img src="./assets/images/menu.svg" alt="menu icon">
+              Меню
+            </a>
+
+            <a target="_blank" class="btn btn-secondary btn-icon" href="https://goo.gl/maps/4TVYb7jPZRXxZoxV8">
+                <img src="./assets/images/arrow.svg" alt="menu icon">
+                Адреса
+            </a>
+
+
+          </div>
+
+        </div>
+
+        <div class="home-right">
+
+          <img src="./assets/images/food-1.png" alt="food image" class="food-img food-1" width="200" loading="lazy">
+          <img src="./assets/images/food-2.png" alt="food image" class="food-img food-2" width="200" loading="lazy">
+          <img src="./assets/images/food-3.png" alt="food image" class="food-img food-3" width="200" loading="lazy">
+
+<!--          <img src="./assets/images/dialog-1.svg" alt="dialog" class="dialog dialog-1" width="230">-->
+<!--          <img src="./assets/images/dialog-2.svg" alt="dialog" class="dialog dialog-2" width="230">-->
+
+          <img src="./assets/images/circle 1.svg" alt="circle shape" class="shape shape-1" width="25">
+          <img src="./assets/images/circle 1.svg" alt="circle shape" class="shape shape-2" width="15">
+          <img src="./assets/images/circle 1.svg" alt="circle shape" class="shape shape-3" width="30">
+          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-4" width="60">
+          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-5" width="40">
+
+        </div>
+
+      </section>
+
+      <section class="sale" id="sale">
+        <div class="wrapper">
+          <div class="sale-one"></div>
+        </div>
+        <div class="wrapper">
+          <div class="sale-two"></div>
+        </div>
+      </section>
+
+      <section class="menu"  id="menu">
+        <p class="title-menu">Меню тижня</p>
+        <div class="accordion-wrapper">
+          <div class="accordion">
+            <div class="accordion-item">
+              <div class="accordion-item-header">
+                <p>Понеділок</p>
+              </div>
+              <div class="accordion-item-body">
+                <div class="accordion-item-body-content">
+                  <p>Борщ 250/30г</p>
+                  <p>Пюре картопляне зі смаженою рибою 120/70г</p>
+                  <p>Овочева нарізка 100г</p>
+                  <p>Хліб 60г</p>
+                  <p>Компот 200мл</p>
+                  <b>Ціна: ₴95</b>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion">
+            <div class="accordion-item">
+              <div class="accordion-item-header">
+                <p>Вівторок</p>
+              </div>
+              <div class="accordion-item-body">
+                <div class="accordion-item-body-content">
+                  <p>Сирний суп 250/30г</p>
+                  <p>Паста Карбонара 180г</p>
+                  <p>Морква по корейськи 100г</p>
+                  <p>Хліб 60г</p>
+                  <p>Компот 200мл</p>
+                  <b>Ціна: ₴95</b>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion">
+            <div class="accordion-item">
+              <div class="accordion-item-header">
+                <p>Середа</p>
+              </div>
+              <div class="accordion-item-body">
+                <div class="accordion-item-body-content">
+                  <p>Уха 270мл</p>
+                  <p>Деруни з м'ясом 200/30г</p>
+                  <p>Салат з капусти 100г</p>
+                  <p>Хліб 60г</p>
+                  <p>Чай каркаде 200мл</p>
+                  <b>Ціна: ₴95</b>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion">
+            <div class="accordion-item">
+              <div class="accordion-item-header">
+                <p>Четвер</p>
+              </div>
+              <div class="accordion-item-body">
+                <div class="accordion-item-body-content">
+                  <p>Рисовий суп 270мл</p>
+                  <p>Каша ячмінна з котлетою 120/70г</p>
+                  <p>Овочева нарізка 100г</p>
+                  <p>Хліб 60г</p>
+                  <p>Компот 200мл</p>
+                  <b>Ціна: ₴95</b>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion">
+            <div class="accordion-item">
+              <div class="accordion-item-header">
+                <p>П`ятниця</p>
+              </div>
+              <div class="accordion-item-body">
+                <div class="accordion-item-body-content">
+                  <p>Солянка 250/30г</p>
+                  <p>Вареники з картоплею 200/30г</p>
+                  <p>Салат зі свіжої капусти 100г</p>
+                  <p>Хліб 60г</p>
+                  <p>Чай каркаде 200мл</p>
+                  <b>Ціна: ₴95</b>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="accordion top">
+          <div class="accordion-item">
+            <div class="accordion-item-header">
+              Основне меню
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                <p>Сніданок   <b> ₴85 </b></p>
+                <p>Салат "Цезар" з куркою (270г)   <b> ₴115</b></p>
+                <p>Салат овочевий (270г)   <b> ₴47</b></p>
+                <p>Картопля смажена з ковбасками (150/50/50г)   <b> ₴85</b></p>
+                <p>Ковбаски гриль мюнхенські (250/60г)   <b> ₴135</b></p>
+                <p>Вареники з картоплею (200/30г)   <b> ₴66</b></p>
+                <p>Пельмені (200/30г)   <b> ₴77</b></p>
+                <p>Лаваш з куркою    <b> ₴57</b></p>
+                <p>Лаваш з мисливськими ковбасками    <b> ₴75</b></p>
+                <p>Десерт    <b> ₴43</b></p>
+
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-item-header">
+
+              Напої
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                <p>Американо  <b>₴23/27</b></p>
+                <p>Еспрессо  <b>₴23</b></p>
+                <p>Капучино  <b>₴32</b></p>
+                <p>Латте  <b>₴35</b></p>
+                <p>Айс Фьюжн  <b>₴39</b></p>
+                <p>Чай  <b>₴21</b></p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </main>
+
+
+
+
+
+    <!--
+      - #FOOTER
+    -->
+
+    <footer>
+
+      <div class="footer-wrapper">
+
+        <a href="#">
+          <img src="./assets/images/image 7.png" alt="logo" class="footer-brand" width="130">
+        </a>
+
+        <div class="work-hours">
+          <img src="./assets/images/hour.PNG" alt="" width="20">
+          <div>
+            <a>8:00 - 18:00 </a>  <br>
+            <a>Сб, Нд - вихідні</a>
+          </div>
+        </div>
+
+        <div class="adress">
+          <img src="./assets/images/carta.PNG" alt=""  width="20">
+          <a href="https://goo.gl/maps/4TVYb7jPZRXxZoxV8" target="_blank">Вул. Максима Шимка, 40</a>
+        </div>
+
+        <div class="social-link">
+          <div>
+            <img src="./assets/images/telefon.PNG" alt="" width="20">
+            <a>+38 067 98 27 287</a>
+          </div>
+          <div>
+            <img src="./assets/images/tel.PNG" alt="" width="20">
+            <a href="https://web.telegram.org/k/#@DayteMenu" target="_blank">@DayteMenu</a>
+          </div>
+        </div>
+      </div>
+
+<!--        <p class="copyright">&copy; Copyright 2022 DayteShe. All Rights Reserved.</p>-->
+
+    </footer>
+
+  </div>
+
+
+
+
+
+
+  <script src="./assets/js/foodhub.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
